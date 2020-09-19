@@ -12,7 +12,6 @@ library(shiny)
 library(shinyalert)
 library(shinydashboard)
 
-ttab_ui <- read.csv('timetable.csv', strip.white = TRUE)
 calendar_ui <- read.csv('calendar.csv', strip.white = TRUE)
 
 dashboardPage(
